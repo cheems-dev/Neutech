@@ -1,0 +1,107 @@
+.elementor-26 .elementor-element.elementor-element-f4f7dc7:not(.elementor-motion-effects-element-type-background),
+.elementor-26 .elementor-element.elementor-element-f4f7dc7>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+  background-color: #FFFFFF;
+}
+
+.elementor-26 .elementor-element.elementor-element-f4f7dc7 {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  z-index: 100;
+}
+
+.elementor-26 .elementor-element.elementor-element-f4f7dc7>.elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-bc-flex-widget .elementor-26 .elementor-element.elementor-element-e350a68.elementor-column .elementor-widget-wrap {
+  align-items: center;
+}
+
+.elementor-26 .elementor-element.elementor-element-e350a68.elementor-column.elementor-element[data-element_type="column"]>.elementor-widget-wrap.elementor-element-populated {
+  align-content: center;
+  align-items: center;
+}
+
+.elementor-26 .elementor-element.elementor-element-e350a68.elementor-column>.elementor-widget-wrap {
+  justify-content: space-between;
+}
+
+.elementor-26 .elementor-element.elementor-element-e350a68>.elementor-element-populated {
+  margin: 0px 20px 0px 20px;
+  --e-column-margin-right: 20px;
+  --e-column-margin-left: 20px;
+}
+
+.elementor-26 .elementor-element.elementor-element-5cad9b7 {
+  width: auto;
+  max-width: auto;
+}
+
+.elementor-26 .elementor-element.elementor-element-5cad9b7 img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.elementor-26 .elementor-element.elementor-element-0441d68 {
+  width: auto;
+  max-width: auto;
+}
+
+.elementor-26 .elementor-element.elementor-element-0441d68 .elementor-menu-toggle {
+  margin: 0 auto;
+  background-color: var(--e-global-color-secondary);
+}
+
+.elementor-26 .elementor-element.elementor-element-0441d68 .elementor-nav-menu--main .elementor-item {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.elementor-26 .elementor-element.elementor-element-0441d68 .elementor-nav-menu--dropdown a,
+.elementor-26 .elementor-element.elementor-element-0441d68 .elementor-menu-toggle {
+  color: var(--e-global-color-text);
+}
+
+.elementor-26 .elementor-element.elementor-element-0441d68 .elementor-nav-menu--dropdown a:hover,
+.elementor-26 .elementor-element.elementor-element-0441d68 .elementor-nav-menu--dropdown a.elementor-item-active,
+.elementor-26 .elementor-element.elementor-element-0441d68 .elementor-nav-menu--dropdown a.highlighted,
+.elementor-26 .elementor-element.elementor-element-0441d68 .elementor-menu-toggle:hover {
+  color: #FFFFFF;
+}
+
+.elementor-26 .elementor-element.elementor-element-0441d68 .elementor-nav-menu--dropdown a:hover,
+.elementor-26 .elementor-element.elementor-element-0441d68 .elementor-nav-menu--dropdown a.elementor-item-active,
+.elementor-26 .elementor-element.elementor-element-0441d68 .elementor-nav-menu--dropdown a.highlighted {
+  background-color: var(--e-global-color-primary);
+}
+
+.elementor-26 .elementor-element.elementor-element-0441d68 div.elementor-menu-toggle {
+  color: #FFFFFF;
+}
+
+.elementor-26 .elementor-element.elementor-element-0441d68 div.elementor-menu-toggle svg {
+  fill: #FFFFFF;
+}
+
+.elementor-26 .elementor-element.elementor-element-0441d68 div.elementor-menu-toggle:hover {
+  color: #FFFFFF;
+}
+
+.elementor-26 .elementor-element.elementor-element-0441d68 div.elementor-menu-toggle:hover svg {
+  fill: #FFFFFF;
+}
+
+.elementor-26 .elementor-element.elementor-element-0441d68 .elementor-menu-toggle:hover {
+  background-color: var(--e-global-color-primary);
+}
+
+@media(max-width:1024px) {
+  .elementor-26 .elementor-element.elementor-element-e350a68>.elementor-element-populated {
+    padding: 10px 10px 10px 10px;
+  }
+
+  .elementor-26 .elementor-element.elementor-element-0441d68 .elementor-nav-menu--main>.elementor-nav-menu>li>.elementor-nav-menu--dropdown,
+  .elementor-26 .elementor-element.elementor-element-0441d68 .elementor-nav-menu__container.elementor-nav-menu--dropdown {
+    margin-top: 15px !important;
+  }
+}
