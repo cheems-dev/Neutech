@@ -1,0 +1,164 @@
+/*-------------------------------------
+        3. Top-area
+--------------------------------------*/
+nav.navbar.bootsnav {
+  background-color: #fff;
+  border-bottom: transparent;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.wrap-sticky nav.navbar.bootsnav.sticked {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*.navbar-brand*/
+.navbar-header a.navbar-brand,
+.navbar-header a.navbar-brand:hover,
+.navbar-header a.navbar-brand:focus {
+  display: inline-block;
+  color: #1b1e20;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 34px 0px;
+  text-transform: capitalize;
+}
+
+.navbar-header a.navbar-brand span {
+  display: inline-block;
+  color: #fb2056;
+  text-transform: capitalize;
+}
+
+.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,
+.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,
+.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {
+  padding: 30px 0px;
+}
+
+/*.navbar-brand*/
+
+/*.nav li*/
+nav.navbar.bootsnav ul.nav > li > a {
+  color: #4c4e4f;
+  fill: #4c4e4f;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+  line-height: 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #4c4e4f;
+  font-size: 16px;
+  white-space: nowrap;
+  margin-inline-end: 0px;
+}
+
+nav.navbar.bootsnav ul.nav > li > a {
+  padding: 34px 21px;
+}
+
+nav.navbar.bootsnav ul.nav > li > a:hover,
+nav.navbar.bootsnav ul.nav > li > a:focus {
+  color: #fb2056;
+  text-decoration: underline solid #fb2056;
+}
+
+nav.navbar.bootsnav ul.nav > li.active > a {
+  color: #fb2056;
+  fill: #fb2056;
+}
+
+nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
+  content: "";
+  background-color: #fb2056;
+  height: 3px;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+/* Línea debajo de los enlaces */
+nav.navbar.bootsnav ul.nav > li > a::after {
+  content: ""; /* Crear el contenido vacío para la línea */
+  position: absolute;
+  bottom: 0; /* Coloca la línea justo debajo del texto */
+  left: 0;
+  width: 0%; /* La línea no será visible hasta que esté en hover */
+  height: 3px; /* Tamaño de la línea */
+  background-color: #fb2056; /* Color rojo */
+  transition: width 0.1s ease; /* Animación suave */
+}
+
+/* Efecto al pasar el cursor (hover) */
+nav.navbar.bootsnav ul.nav > li > a:hover::after {
+  width: 100%; /* Expande la línea para cubrir todo el ancho */
+}
+
+/* Cuando el enlace está activo (enlace seleccionado) */
+nav.navbar.bootsnav ul.nav > li.active > a::after,
+nav.navbar.bootsnav ul.nav > li.active > a:hover::after {
+  width: 100%; /* Asegura que la línea esté visible también cuando esté activo */
+}
+
+/* Efecto al hacer hover o focus en el enlace */
+nav.navbar.bootsnav ul.nav > li > a:hover,
+nav.navbar.bootsnav ul.nav > li > a:focus {
+  color: #fb2056; /* Cambia el color del texto */
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+}
+
+nav.navbar.bootsnav ul.nav > li.active > a::after {
+  width: 100%; /* La línea se mantiene visible en todo momento cuando el enlace está activo */
+  transition: none; /* Evita la animación cuando está activo */
+}
+
+nav.navbar.bootsnav ul.nav > li.dropdown span {
+  font-size: 8px;
+  margin-left: 15px;
+}
+
+.wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > a {
+  padding: 34px 21px;
+}
+
+/*.nav li*/
+
+/*.menu-ui-design*/
+.menu-ui-design {
+  overflow-y: scroll;
+  /* height: 350px; */
+}
+
+.menu-ui-design::-webkit-scrollbar {
+  width: 5px;
+}
+
+.menu-ui-design::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 8px #000;
+}
+
+.menu-ui-design::-webkit-scrollbar-thumb {
+  background-color: #fb2056;
+}
+
+/*.menu-ui-design*/
+
+/*.navbar-toggle */
+nav.navbar.bootsnav .navbar-toggle {
+  position: relative;
+  background-color: transparent;
+  border: 1px solid #fb2056;
+  padding: 10px;
+  top: 0;
+}
+
+nav.navbar.bootsnav .navbar-toggle i {
+  color: #fb2056;
+}
+
+/*.navbar-toggle */

@@ -31,167 +31,7 @@
         "description": "Neutech"
       }
     </script>
-    <script>
-      window._wpemojiSettings = {
-        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
-        ext: ".png",
-        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
-        svgExt: ".svg",
-        source: {
-          concatemoji:
-            "https:\/\/cNOedKGu9XNU.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1",
-        },
-      };
-      /*! This file is auto-generated */
-      !(function (i, n) {
-        var o, s, e;
-        function c(e) {
-          try {
-            var t = { supportTests: e, timestamp: new Date().valueOf() };
-            sessionStorage.setItem(o, JSON.stringify(t));
-          } catch (e) {}
-        }
-        function p(e, t, n) {
-          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-            e.fillText(t, 0, 0);
-          var t = new Uint32Array(
-              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
-            ),
-            r =
-              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-              e.fillText(n, 0, 0),
-              new Uint32Array(
-                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
-              ));
-          return t.every(function (e, t) {
-            return e === r[t];
-          });
-        }
-        function u(e, t, n) {
-          switch (t) {
-            case "flag":
-              return n(
-                e,
-                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
-                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
-              )
-                ? !1
-                : !n(
-                    e,
-                    "\ud83c\uddfa\ud83c\uddf3",
-                    "\ud83c\uddfa\u200b\ud83c\uddf3"
-                  ) &&
-                    !n(
-                      e,
-                      "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                    );
-            case "emoji":
-              return !n(
-                e,
-                "\ud83d\udc26\u200d\u2b1b",
-                "\ud83d\udc26\u200b\u2b1b"
-              );
-          }
-          return !1;
-        }
-        function f(e, t, n) {
-          var r =
-              "undefined" != typeof WorkerGlobalScope &&
-              self instanceof WorkerGlobalScope
-                ? new OffscreenCanvas(300, 150)
-                : i.createElement("canvas"),
-            a = r.getContext("2d", { willReadFrequently: !0 }),
-            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
-          return (
-            e.forEach(function (e) {
-              o[e] = t(a, e, n);
-            }),
-            o
-          );
-        }
-        function t(e) {
-          var t = i.createElement("script");
-          (t.src = e), (t.defer = !0), i.head.appendChild(t);
-        }
-        "undefined" != typeof Promise &&
-          ((o = "wpEmojiSettingsSupports"),
-          (s = ["flag", "emoji"]),
-          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
-          (e = new Promise(function (e) {
-            i.addEventListener("DOMContentLoaded", e, { once: !0 });
-          })),
-          new Promise(function (t) {
-            var n = (function () {
-              try {
-                var e = JSON.parse(sessionStorage.getItem(o));
-                if (
-                  "object" == typeof e &&
-                  "number" == typeof e.timestamp &&
-                  new Date().valueOf() < e.timestamp + 604800 &&
-                  "object" == typeof e.supportTests
-                )
-                  return e.supportTests;
-              } catch (e) {}
-              return null;
-            })();
-            if (!n) {
-              if (
-                "undefined" != typeof Worker &&
-                "undefined" != typeof OffscreenCanvas &&
-                "undefined" != typeof URL &&
-                URL.createObjectURL &&
-                "undefined" != typeof Blob
-              )
-                try {
-                  var e =
-                      "postMessage(" +
-                      f.toString() +
-                      "(" +
-                      [JSON.stringify(s), u.toString(), p.toString()].join(
-                        ","
-                      ) +
-                      "));",
-                    r = new Blob([e], { type: "text/javascript" }),
-                    a = new Worker(URL.createObjectURL(r), {
-                      name: "wpTestEmojiSupports",
-                    });
-                  return void (a.onmessage = function (e) {
-                    c((n = e.data)), a.terminate(), t(n);
-                  });
-                } catch (e) {}
-              c((n = f(s, u, p)));
-            }
-            t(n);
-          })
-            .then(function (e) {
-              for (var t in e)
-                (n.supports[t] = e[t]),
-                  (n.supports.everything =
-                    n.supports.everything && n.supports[t]),
-                  "flag" !== t &&
-                    (n.supports.everythingExceptFlag =
-                      n.supports.everythingExceptFlag && n.supports[t]);
-              (n.supports.everythingExceptFlag =
-                n.supports.everythingExceptFlag && !n.supports.flag),
-                (n.DOMReady = !1),
-                (n.readyCallback = function () {
-                  n.DOMReady = !0;
-                });
-            })
-            .then(function () {
-              return e;
-            })
-            .then(function () {
-              var e;
-              n.supports.everything ||
-                (n.readyCallback(),
-                (e = n.source || {}).concatemoji
-                  ? t(e.concatemoji)
-                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
-            }));
-      })((window, document), window._wpemojiSettings);
-    </script>
+
     <style id="wp-emoji-styles-inline-css">
       img.wp-smiley,
       img.emoji {
@@ -607,35 +447,30 @@
       href="./css/elementor/widget-icon-box.min_ver%3D3.24.6.css"
       media="all"
     />
-    <!-- MIGRADO -->
     <link
       rel="stylesheet"
       id="e-animation-bounce-in-css"
       href="./css/elementor/e-animation-bounce-in.min_ver%3D3.24.6.css"
       media="all"
     />
-    <!-- MIGRADO -->
     <link
       rel="stylesheet"
       id="widget-social-icons-css"
       href="./css/elementor/widget-social-icons.min_ver%3D3.24.6.css"
       media="all"
     />
-    <!-- MIGRADO -->
     <link
       rel="stylesheet"
       id="e-apple-webkit-css"
       href="./css/elementor/apple-webkit.min_ver%3D3.24.6.css"
       media="all"
     />
-    <!-- MIGRADO -->
     <link
       rel="stylesheet"
       id="widget-text-editor-css"
       href="./css/elementor/widget-text-editor.min_ver%3D3.24.6.css"
       media="all"
     />
-    <!-- MIGRADO -->
     <link
       rel="stylesheet"
       id="elementor-icons-css"
@@ -768,6 +603,7 @@
       href="./lib/font-awesome/brands.min_ver%3D5.15.3.css"
       media="all"
     />
+
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
     <script src="./js/jquery.min_ver%3D3.7.1.js" id="jquery-core-js"></script>
     <script
@@ -775,24 +611,27 @@
       id="jquery-migrate-js"
     ></script>
     <link rel="https://api.w.org/" href="https://cNOedKGu9XNU.com/wp-json/" />
-    <!-- Google Tag Manager -->
-    <!--  <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-PFRMM7S");
-    </script> -->
-    <!-- End Google Tag Manager -->
-    <meta
-      name="generator"
-      content="Elementor 3.24.6; features: additional_custom_breakpoints, e_optimized_control_loading; settings: css_print_method-external, google_font-enabled, font_display-auto"
+
+    <link
+      rel="stylesheet"
+      id="bootstrap-css"
+      href="./css/bootstrap.min.css"
+      media="all"
     />
+    <link
+      rel="stylesheet"
+      id="bootsnav-css"
+      href="./css/bootsnav.css"
+      media="all"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      id="responsive-css"
+      href="./css/responsive.css"
+      media="all"
+    />
+
     <style>
       .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload),
       .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload)
@@ -836,269 +675,84 @@
       rel="apple-touch-icon"
       href="./assets/icons/cropped-favicon-2022-10-31-180x180.png"
     />
-    <!--  <meta
-      name="msapplication-TileImage"
-      content="./assets/icons/cropped-favicon-2022-10-31-270x270.png"
-    /> -->
   </head>
   <body
     class="home page-template-default page page-id-10 wp-custom-logo elementor-default elementor-kit-5 elementor-page elementor-page-10"
   >
-    <div
-      data-elementor-type="header"
-      data-elementor-id="26"
-      class="elementor elementor-26 elementor-location-header"
-      data-elementor-post-type="elementor_library"
-    >
-      <section
-        class="elementor-section elementor-top-section elementor-element elementor-element-f4f7dc7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-        data-id="f4f7dc7"
-        data-element_type="section"
-        data-settings='{"sticky":"top","sticky_on":["desktop","tablet"],"background_background":"classic","sticky_offset":0,"sticky_effects_offset":0}'
-      >
-        <div class="elementor-container elementor-column-gap-no">
-          <div
-            class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e350a68"
-            data-id="e350a68"
-            data-element_type="column"
-          >
-            <div class="elementor-widget-wrap elementor-element-populated">
-              <div
-                class="elementor-element elementor-element-5cad9b7 elementor-widget__width-auto elementor-widget elementor-widget-theme-site-logo elementor-widget-image"
-                data-id="5cad9b7"
-                data-element_type="widget"
-                data-widget_type="theme-site-logo.default"
+    <!-- top-area Start -->
+    <section class="top-area">
+      <div class="header-area">
+        <!-- Start Navigation -->
+        <nav
+          class="navbar navbar-default bootsnav navbar-sticky navbar-scrollspy"
+          data-minus-value-desktop="70"
+          data-minus-value-mobile="55"
+          data-speed="1000"
+        >
+          <div class="container">
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#navbar-menu"
               >
-                <div class="elementor-widget-container">
-                  <a href="https://firelinkperu2.neutechperu.com">
-                    <img
-                      fetchpriority="high"
-                      width="1060"
-                      height="180"
-                      src="./assets/img/firelink-1024x247.png"
-                      class="attachment-full size-full wp-image-409 lazy"
-                      alt=""
-                    />
-                  </a>
-                </div>
-              </div>
-              <div
-                class="elementor-element elementor-element-0441d68 elementor-widget__width-auto elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu"
-                data-id="0441d68"
-                data-element_type="widget"
-                data-settings='{"full_width":"stretch","layout":"horizontal","submenu_icon":{"value":"<i class=\"fas fa-caret-down\"><\/i>","library":"fa-solid"},"toggle":"burger"}'
-                data-widget_type="nav-menu.default"
+                <i class="fa fa-bars"></i>
+              </button>
+              <a
+                class="navbar-brand"
+                href="https://firelinkperu2.neutechperu.com"
               >
-                <div class="elementor-widget-container">
-                  <nav
-                    aria-label="Menú"
-                    class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade"
-                  >
-                    <ul id="menu-1-0441d68" class="elementor-nav-menu">
-                      <li
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-15"
-                      >
-                        <a
-                          href="/#que_es"
-                          aria-current="page"
-                          class="elementor-item elementor-item-active"
-                          >Inicio</a
-                        >
-                      </li>
-                      <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-16"
-                      >
-                        <a
-                          href="/#que_es"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          >¿Qué es?</a
-                        >
-                      </li>
-                      <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-17"
-                      >
-                        <a
-                          href="/#beneficios"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          >Beneficios</a
-                        >
-                      </li>
-                      <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-18"
-                      >
-                        <a
-                          href="/#componentes"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          >Componentes</a
-                        >
-                      </li>
-                      <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-19"
-                      >
-                        <a
-                          href="/#manuales"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          >Manuales</a
-                        >
-                      </li>
-                      <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-20"
-                      >
-                        <a
-                          href="/#clientes"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          >Clientes</a
-                        >
-                      </li>
-                      <!--  <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-21"
-                      >
-                        <a
-                          href="/#blog"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          >Blog</a
-                        >
-                      </li> -->
-                      <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-22"
-                      >
-                        <a
-                          href="/#contactanos"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          >Contáctanos</a
-                        >
-                      </li>
-                    </ul>
-                  </nav>
-
-                  <div
-                    class="elementor-menu-toggle"
-                    role="button"
-                    tabindex="0"
-                    aria-label="Alternar menú"
-                    aria-expanded="false"
-                  >
-                    <i
-                      aria-hidden="true"
-                      role="presentation"
-                      class="elementor-menu-toggle__icon--open eicon-menu-bar"
-                    ></i
-                    ><i
-                      aria-hidden="true"
-                      role="presentation"
-                      class="elementor-menu-toggle__icon--close eicon-close"
-                    ></i>
-                    <span class="elementor-screen-only">Menú</span>
-                  </div>
-                  <nav
-                    class="elementor-nav-menu--dropdown elementor-nav-menu__container"
-                    aria-hidden="true"
-                  >
-                    <ul id="menu-2-0441d68" class="elementor-nav-menu">
-                      <li
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-15"
-                      >
-                        <a
-                          href="/#que_es"
-                          aria-current="page"
-                          class="elementor-item elementor-item-active"
-                          tabindex="-1"
-                          >Inicio</a
-                        >
-                      </li>
-                      <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-16"
-                      >
-                        <a
-                          href="/#que_es"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          tabindex="-1"
-                          >¿Qué es?</a
-                        >
-                      </li>
-                      <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-17"
-                      >
-                        <a
-                          href="/#beneficios"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          tabindex="-1"
-                          >Beneficios</a
-                        >
-                      </li>
-                      <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-18"
-                      >
-                        <a
-                          href="/#componentes"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          tabindex="-1"
-                          >Componentes</a
-                        >
-                      </li>
-                      <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-19"
-                      >
-                        <a
-                          href="/#manuales"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          tabindex="-1"
-                          >Manuales</a
-                        >
-                      </li>
-                      <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-20"
-                      >
-                        <a
-                          href="/#clientes"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          tabindex="-1"
-                          >Clientes</a
-                        >
-                      </li>
-                      <!--  <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-21"
-                      >
-                        <a
-                          href="/#blog"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          tabindex="-1"
-                          >Blog</a
-                        >
-                      </li> -->
-                      <li
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-22"
-                      >
-                        <a
-                          href="/#contactanos"
-                          aria-current="page"
-                          class="elementor-item elementor-item-anchor"
-                          tabindex="-1"
-                          >Contáctanos</a
-                        >
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
+                <img
+                  fetchpriority="high"
+                  width="120"
+                  height="180"
+                  src="./assets/img/firelink-1024x247.png"
+                  class="attachment-full size-full wp-image-409 lazy"
+                  alt=""
+              /></a>
             </div>
+            <!--/.navbar-header-->
+            <!-- End Header Navigation -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse menu-ui-design"
+              id="navbar-menu"
+            >
+              <ul
+                class="nav navbar-nav navbar-right elementor-nav-menu"
+                data-in="fadeInDown"
+                data-out="fadeOutUp"
+              >
+                <li class="scroll active elementor-item">
+                  <a href="#que_es">Inicio</a>
+                </li>
+                <li class="scroll elementor-item">
+                  <a href="#que_es">¿Qué es?</a>
+                </li>
+                <li class="scroll elementor-item">
+                  <a href="#beneficios">Beneficios</a>
+                </li>
+                <li class="scroll"><a href="#componentes">Componentes</a></li>
+                <li class="scroll"><a href="#manuales">Manuales</a></li>
+                <li class="scroll"><a href="#clientes">Clientes</a></li>
+              </ul>
+              <!--/.nav -->
+            </div>
+            <!-- /.navbar-collapse -->
           </div>
-        </div>
-      </section>
-    </div>
+          <!--/.container-->
+        </nav>
+        <!--/nav-->
+        <!-- End Navigation -->
+      </div>
+      <!--/.header-area-->
+      <div class="clearfix"></div>
+    </section>
+    <!-- /.top-area-->
+    <!-- top-area End -->
 
     <main
       id="content"
@@ -5556,104 +5210,31 @@
         document.addEventListener(event, lazyloadRunObserver);
       });
     </script>
-    <!-- Migrado -->
-    <script
-      src="./js/hello-frontend.min_ver=3.1.1.js"
-      id="hello-theme-frontend-js"
-    ></script>
-    <!-- Migrado -->
     <script
       src="./lib/smartmenus/jquery.smartmenus.min_ver%3D1.2.1.js"
       id="smartmenus-js"
     ></script>
-    <!-- Migrado -->
     <script
       src="./lib/sticky/jquery.sticky.min_ver%3D3.24.4.js"
       id="e-sticky-js"
     ></script>
-    <!-- Migrado -->
     <script
       src="./js/imagesloaded.min_ver%3D5.0.0.js"
       id="imagesloaded-js"
     ></script>
-    <!-- No Migrado -->
-    <!--  <script
-      src="../UgkUwuC0hSuq.com/recaptcha/api_render%3Dexplicit%26ver%3D3.24.4.js"
-      id="elementor-recaptcha_v3-api-js"
-    ></script> -->
-    <!-- Migrado -->
     <script
       src="./js/webpack-pro.runtime.min_ver%3D3.24.4.js"
       id="elementor-pro-webpack-runtime-js"
     ></script>
-    <!-- Migrado -->
     <script
       src="./js/webpack.runtime.min_ver%3D3.24.6.js"
       id="elementor-webpack-runtime-js"
     ></script>
-    <!-- Migrado -->
     <script
       src="./js/frontend-modules.min_ver%3D3.24.6.js"
       id="elementor-frontend-modules-js"
     ></script>
-    <!--   <script
-      src="wp-includes/js/dist/hooks.min_ver%3D4d63a3d491d11ffd8ac6.js"
-      id="wp-hooks-js"
-    ></script>
-    <script
-      src="wp-includes/js/dist/i18n.min_ver%3D5e580eb46a90c2b997e6.js"
-      id="wp-i18n-js"
-    ></script>
-    <script id="wp-i18n-js-after">
-      wp.i18n.setLocaleData({ "text direction\u0004ltr": ["ltr"] });
-    </script>
-    <script id="elementor-pro-frontend-js-before">
-      var ElementorProFrontendConfig = {
-        ajaxurl: "https:\/\/cNOedKGu9XNU.com\/wp-admin\/admin-ajax.php",
-        nonce: "4c6c4f9501",
-        urls: {
-          assets:
-            "https:\/\/cNOedKGu9XNU.com\/wp-content\/plugins\/elementor-pro\/assets\/",
-          rest: "https:\/\/cNOedKGu9XNU.com\/wp-json\/",
-        },
-        settings: { lazy_load_background_images: true },
-        shareButtonsNetworks: {
-          facebook: { title: "Facebook", has_counter: true },
-          twitter: { title: "Twitter" },
-          linkedin: { title: "LinkedIn", has_counter: true },
-          pinterest: { title: "Pinterest", has_counter: true },
-          reddit: { title: "Reddit", has_counter: true },
-          vk: { title: "VK", has_counter: true },
-          odnoklassniki: { title: "OK", has_counter: true },
-          tumblr: { title: "Tumblr" },
-          digg: { title: "Digg" },
-          skype: { title: "Skype" },
-          stumbleupon: { title: "StumbleUpon", has_counter: true },
-          mix: { title: "Mix" },
-          telegram: { title: "Telegram" },
-          pocket: { title: "Pocket", has_counter: true },
-          xing: { title: "XING", has_counter: true },
-          whatsapp: { title: "WhatsApp" },
-          email: { title: "Email" },
-          print: { title: "Print" },
-          "x-twitter": { title: "X" },
-          threads: { title: "Threads" },
-        },
-        facebook_sdk: { lang: "es_ES", app_id: "" },
-        lottie: {
-          defaultAnimationUrl:
-            "https:\/\/cNOedKGu9XNU.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
-        },
-      };
-    </script> -->
-    <!-- No Migrado -->
-    <script
-      src="./js/frontend.min_ver%3D3.24.4.js"
-      id="elementor-pro-frontend-js"
-    ></script>
-    <!-- Migrado -->
     <script src="./js/core.min_ver%3D1.13.3.js" id="jquery-ui-core-js"></script>
-    <!-- Módulo ES desde CDN -->
     <script type="module">
       import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
 
@@ -5863,132 +5444,7 @@
         },
       });
     </script>
-    <!--  <script id="elementor-frontend-js-before">
-      var elementorFrontendConfig = {
-        environmentMode: {
-          edit: false,
-          wpPreview: false,
-          isScriptDebug: false,
-        },
-        i18n: {
-          shareOnFacebook: "Compartir en Facebook",
-          shareOnTwitter: "Compartir en Twitter",
-          pinIt: "Pinear",
-          download: "Descargar",
-          downloadImage: "Descargar imagen",
-          fullscreen: "Pantalla completa",
-          zoom: "Zoom",
-          share: "Compartir",
-          playVideo: "Reproducir v\u00eddeo",
-          previous: "Anterior",
-          next: "Siguiente",
-          close: "Cerrar",
-          a11yCarouselWrapperAriaLabel:
-            "Carrusel | Scroll horizontal: Flecha izquierda y derecha",
-          a11yCarouselPrevSlideMessage: "Diapositiva anterior",
-          a11yCarouselNextSlideMessage: "Diapositiva siguiente",
-          a11yCarouselFirstSlideMessage: "Esta es la primera diapositiva",
-          a11yCarouselLastSlideMessage: "Esta es la \u00faltima diapositiva",
-          a11yCarouselPaginationBulletMessage: "Ir a la diapositiva",
-        },
-        is_rtl: false,
-        breakpoints: { xs: 0, sm: 480, md: 768, lg: 1025, xl: 1440, xxl: 1600 },
-        responsive: {
-          breakpoints: {
-            mobile: {
-              label: "M\u00f3vil vertical",
-              value: 767,
-              default_value: 767,
-              direction: "max",
-              is_enabled: true,
-            },
-            mobile_extra: {
-              label: "M\u00f3vil horizontal",
-              value: 880,
-              default_value: 880,
-              direction: "max",
-              is_enabled: false,
-            },
-            tablet: {
-              label: "Tableta vertical",
-              value: 1024,
-              default_value: 1024,
-              direction: "max",
-              is_enabled: true,
-            },
-            tablet_extra: {
-              label: "Tableta horizontal",
-              value: 1200,
-              default_value: 1200,
-              direction: "max",
-              is_enabled: false,
-            },
-            laptop: {
-              label: "Port\u00e1til",
-              value: 1366,
-              default_value: 1366,
-              direction: "max",
-              is_enabled: false,
-            },
-            widescreen: {
-              label: "Pantalla grande",
-              value: 2400,
-              default_value: 2400,
-              direction: "min",
-              is_enabled: false,
-            },
-          },
-          hasCustomBreakpoints: false,
-        },
-        version: "3.24.6",
-        is_static: false,
-        experimentalFeatures: {
-          additional_custom_breakpoints: true,
-          container: true,
-          container_grid: true,
-          e_swiper_latest: true,
-          e_nested_atomic_repeaters: true,
-          e_optimized_control_loading: true,
-          e_onboarding: true,
-          theme_builder_v2: true,
-          "hello-theme-header-footer": true,
-          home_screen: true,
-          "ai-layout": true,
-          "landing-pages": true,
-          "link-in-bio": true,
-          "floating-buttons": true,
-          "display-conditions": true,
-          "form-submissions": true,
-        },
-        urls: {
-          assets:
-            "https:\/\/cNOedKGu9XNU.com\/wp-content\/plugins\/elementor\/assets\/",
-          ajaxurl: "https:\/\/cNOedKGu9XNU.com\/wp-admin\/admin-ajax.php",
-          uploadUrl: "https:\/\/cNOedKGu9XNU.com\/wp-content\/uploads",
-        },
-        nonces: { floatingButtonsClickTracking: "e32ec2d432" },
-        swiperClass: "swiper",
-        settings: { page: [], editorPreferences: [] },
-        kit: {
-          active_breakpoints: ["viewport_mobile", "viewport_tablet"],
-          global_image_lightbox: "yes",
-          lightbox_enable_counter: "yes",
-          lightbox_enable_fullscreen: "yes",
-          lightbox_enable_zoom: "yes",
-          lightbox_enable_share: "yes",
-          lightbox_title_src: "title",
-          lightbox_description_src: "description",
-          hello_header_logo_type: "logo",
-          hello_header_menu_layout: "horizontal",
-          hello_footer_logo_type: "logo",
-        },
-        post: { id: 10, title: "Neutech", excerpt: "", featuredImage: false },
-      };
-    </script> -->
-    <script
-      src="./js/frontend.min_ver%3D3.24.6.js"
-      id="elementor-frontend-js"
-    ></script>
+
     <script
       src="./js/elements-handlers.min_ver%3D3.24.4.js"
       id="pro-elements-handlers-js"
@@ -6017,38 +5473,7 @@
 
     <!-- Asegúrate de que jQuery esté cargado -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <script>
-      $(document).ready(function () {
-        // Selecciona el botón del menú hamburguesa
-        $(".elementor-menu-toggle").on("click", function () {
-          // Selecciona el contenedor del menú desplegable
-          var menu = $(this).next(".elementor-nav-menu--dropdown");
-
-          // Alterna la clase 'active' para mostrar o esconder el menú
-          menu.toggleClass("elementor-nav-menu__container--visible");
-
-          // Alterna el estado expandido del botón de menú hamburguesa
-          $(this).attr("aria-expanded", function (i, attr) {
-            return attr == "true" ? "false" : "true";
-          });
-
-          // Cambia el icono del botón
-          $(this)
-            .find(".elementor-menu-toggle__icon--open")
-            .toggleClass("eicon-menu-bar eicon-close");
-        });
-      });
-    </script>
-
-    <style>
-      .elementor-nav-menu--dropdown {
-        display: none;
-      }
-
-      .elementor-nav-menu__container--visible {
-        display: block;
-      }
-    </style>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootsnav.js"></script>
   </body>
 </html>
